@@ -12,9 +12,62 @@
     #7a7a7b 69%
   );
 }
+/* HEADER */
+.header {
+  background-color: rgb(59, 56, 56) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  color: #ffffff;
+  font-family: "Kalam", cursive;
+  font-size: 22px;
+}
 
-
+/* Carrusel */
+.index-subtit{
+    font-family: "Kalam", cursive;
+    font-size: 25px;
+}
+.index-txt{
+   font-family: "Ubuntu", sans-serif;
+   font-size: 25px;
+}
 .logo {
   padding: 5px;
   width: 50px;
+}
+/* FOOTER */
+.redes {
+  background-color: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.redes img {
+  width: 80px;
+}
+.list-group {
+  align-items: center;
+  background-color: inherit;
+  border: none;
+}
+.list-group-item {
+  background-color: inherit;
+  border: none;
+}
+.footer-txt {
+  font-weight: bold;
+  font-size: 18px;
+  width: 350px;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  background-color: inherit;
+  border: none;
+}
+.ssn{
+  width: 210px;
+  margin: 4px;
 }
