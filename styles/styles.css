@@ -79,6 +79,7 @@
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #555758;
   --bs-btn-hover-border-color: #555758;
+  width: 100px
 }
 .contactForm {
   display: flex;
@@ -87,8 +88,9 @@
   padding: 16px;
   border-radius: 20px;
   margin: auto;
-  background-color: #c5c6c6;
-  margin-top: 20px
+  border: solid #a70016;
+  margin-top: 20px;
+  max-width: 600px;
 }
 .ubicacion {
   display: flex;
