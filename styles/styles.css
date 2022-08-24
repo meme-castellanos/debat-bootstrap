@@ -81,7 +81,9 @@
   --bs-btn-hover-border-color: #555758;
 }
 .contactForm {
-  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   padding: 16px;
   border-radius: 20px;
   margin: auto;
