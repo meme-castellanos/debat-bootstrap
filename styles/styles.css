@@ -90,6 +90,9 @@
   font-family: "Kalam", cursive;
   font-size: 20px;
 }
+.row{
+    padding: 1rem
+}
 /* FOOTER */
 .redes {
   background-color: inherit;
@@ -102,15 +105,19 @@
   width: 80px;
 }
 .list-group {
-  align-items: center;
   background-color: inherit;
   align-items: center;
   background-color: inherit;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 1rem;
 }
-
+.linea{
+    border-top: 3px solid #a70016;
+    box-shadow: rgb(0 0 0 / 130%) 0px -6px 6px -6px;
+    
+}
 .list-group-item {
   background-color: inherit;
   border: none;
