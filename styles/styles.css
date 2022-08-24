@@ -12,6 +12,23 @@
     #7a7a7b 69%
   );
 }
+.titulo1 {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  margin: 1rem;
+  color: #a70016;
+  text-shadow: 1px 2px #423d3d;
+}
+.titulo2 {
+  font-family: "Kalam", cursive;
+  margin: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px grey;
+}
+.nav-link:hover {
+  color: #a70016;
+}
+
 /* HEADER */
 .header {
   background-color: rgb(59, 56, 56) !important;
@@ -24,26 +41,61 @@
   font-family: "Kalam", cursive;
   font-size: 22px;
 }
-
-/* Carrusel */
-.index-subtit{
-    font-family: "Kalam", cursive;
-    font-size: 25px;
+.navbar {
+  --bs-navbar-active-color: rgb(255 253 253 / 90%);
 }
-.index-txt{
-   font-family: "Ubuntu", sans-serif;
-   font-size: 25px;
+
+/*MAIN INDEX */
+/* Carrusel*/
+.index-subtit {
+  font-family: "Kalam", cursive;
+  font-size: 25px;
+}
+.index-txt {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
 }
 .logo {
   padding: 5px;
   width: 50px;
+}
+/* MAIN CONTACTO */
+.form-select:focus {
+  border-color: #a70016;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: #a70016;
+  box-shadow: none;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #555758;
+  --bs-btn-border-color: #555758;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #555758;
+  --bs-btn-hover-border-color: #555758;
+}
+.ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+/* MAIN SEGUROS */
+.col {
+  margin: 1rem;
+}
+.seguros-txt {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
 }
 /* FOOTER */
 .redes {
   background-color: inherit;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   border: none;
 }
 .redes img {
@@ -52,8 +104,13 @@
 .list-group {
   align-items: center;
   background-color: inherit;
-  border: none;
+  align-items: center;
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
 .list-group-item {
   background-color: inherit;
   border: none;
@@ -67,7 +124,7 @@
   background-color: inherit;
   border: none;
 }
-.ssn{
+.ssn {
   width: 210px;
   margin: 4px;
 }
