@@ -93,6 +93,20 @@
 .row{
     padding: 1rem
 }
+/* MAIN SERVICIOS */
+.card{
+    border: var(--bs-card-border-width) none var(--bs-card-border-color);
+    --bs-card-bg: #fff0;
+    align-items: center;
+}
+.card-img-top {
+    width: 100px;
+}
+.card-text{
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+}
+
 /* FOOTER */
 .redes {
   background-color: inherit;
@@ -111,7 +125,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem;
+  margin: 0.5rem;
+  --bs-list-group-border-radius: 0rem;
 }
 .linea{
     border-top: 3px solid #a70016;
@@ -124,14 +139,17 @@
 }
 .footer-txt {
   font-weight: bold;
-  font-size: 18px;
-  width: 350px;
+  font-size: 16px;
+  width: 250px;
   text-align: center;
   font-family: "Kalam", cursive;
   background-color: inherit;
   border: none;
 }
+.word-wrap{
+    word-wrap: break-word
+}
 .ssn {
-  width: 210px;
-  margin: 4px;
+  width: 200px;
+  margin: 2px;
 }
