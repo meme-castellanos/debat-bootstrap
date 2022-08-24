@@ -44,6 +44,10 @@
 .navbar {
   --bs-navbar-active-color: rgb(255 253 253 / 90%);
 }
+.navbar-toggler-icon {
+  background-color: #a700168f;
+  border-radius: 4px;
+}
 
 /*MAIN INDEX */
 /* Carrusel*/
@@ -75,6 +79,14 @@
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #555758;
   --bs-btn-hover-border-color: #555758;
+}
+.contactForm {
+  width: 600px;
+  padding: 16px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #c5c6c6;
+  margin-top: 20px
 }
 .ubicacion {
   display: flex;
