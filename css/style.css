@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Ubuntu:wght@400;500&display=swap");
+main h1 {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  margin: 1rem;
+  color: #a70016;
+  text-shadow: 1px 2px #423d3d; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondo {
+  background-image: linear-gradient(163deg, #c5c6c6 5%, #e1e2e2 42%, #7a7a7b 69%); }
+
+.titulo1 {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  margin: 1rem;
+  color: #a70016;
+  text-shadow: 1px 2px #423d3d; }
+
+.titulo2 {
+  font-family: "Kalam", cursive;
+  margin: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px grey; }
+
+.header {
+  background-color: #3b3838 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .navbar {
+    --bs-navbar-active-color: rgb(255 253 253 / 90%); }
+    .header .navbar .nav-link {
+      color: #ffffff;
+      font-family: "Kalam", cursive;
+      font-size: 22px; }
+      .header .navbar .nav-link:hover {
+        color: #a70016; }
+  .header .logo {
+    padding: 5px;
+    width: 50px; }
+
+.navbar-toggler-icon {
+  background-color: #a700168f;
+  border-radius: 4px; }
+
+.redes {
+  background-color: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: none; }
+
+.redes img {
+  width: 80px; }
+
+.list-group {
+  background-color: inherit;
+  align-items: center;
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0.5rem;
+  --bs-list-group-border-radius: 0rem; }
+
+.linea {
+  border-top: 3px solid #a70016; }
+
+.list-group-item {
+  background-color: inherit;
+  border: none; }
+
+.footer-txt {
+  font-weight: bold;
+  font-size: 16px;
+  width: 250px;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  background-color: inherit;
+  border: none; }
+
+.ssn {
+  width: 200px;
+  margin: 2px; }
+
+.carrusel {
+  max-height: min-content; }
+  .carrusel .index-subtit {
+    font-family: "Kalam", cursive;
+    font-size: 25px; }
+  .carrusel .index-txt {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px; }
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 16px;
+  border-radius: 20px;
+  margin: auto;
+  border: solid #a70016;
+  margin-top: 20px;
+  max-width: 600px; }
+  .contactForm .btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #555758;
+    --bs-btn-border-color: #555758;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #555758;
+    --bs-btn-hover-border-color: #555758;
+    width: 100px; }
+  .contactForm .form-select:focus {
+    border-color: #a70016;
+    box-shadow: none; }
+  .contactForm .form-control:focus {
+    border-color: #a70016;
+    box-shadow: none; }
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px; }
+
+/* MAIN SEGUROS */
+.row {
+  padding: 1rem; }
+  .row .col {
+    margin: 1rem; }
+    .row .col .seguros-txt {
+      font-family: "Kalam", cursive;
+      font-size: 20px; }
+
+/* MAIN SERVICIOS */
+.card {
+  border: var(--bs-card-border-width) none var(--bs-card-border-color);
+  --bs-card-bg: #fff0;
+  align-items: center; }
+  .card .card-img-top {
+    width: 100px; }
+  .card .card-text {
+    font-family: "Kalam", cursive;
+    font-size: 20px; }
